@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+.moviecards{
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+}
+.h{
+    margin-bottom: 6rem;
+    margin-top: 5rem;
+}
+.series{
+    margin-top: 3rem;
+}
+.seriescards{
+    display: flex;
+    flex-wrap: wrap;
+  
+  
+    
+    
+}
+.cards{
+   
+        
+    width:400px ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+    // background-color: #101010;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-family: 'Bebas Neue', cursive;
+    }
+   
+   
+   
+    
+    img{
+            height: 431px;
+            width: 300px;
+}
+&:hover{
+
+    img{
+        transition: transform .5s;
+       transform: scale(1.35,1.35);
+}
+   
+}
+
+
+}

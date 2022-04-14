@@ -1,0 +1,33 @@
+.nav{
+    min-height: 8vh;
+    h1{
+        background-color: #3c3a3a;
+        font-family: 'Beau Rivage', cursive;
+        color: red;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c3a3a;
+    form{
+        background-color: #3c3a3a;
+        img{
+            background-color: #3c3a3a;
+            padding-right: 1rem;
+            position: relative;
+            left: 0rem;
+            top: 20px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    input{
+        height: 50px;
+        width: 20vw;
+        background-color: #ffffff;
+        color: black;
+        font-size: x-large;
+    }
+
+}
