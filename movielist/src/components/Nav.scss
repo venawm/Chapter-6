@@ -1,33 +1,40 @@
 .nav{
+
+    background-color: black;
     min-height: 8vh;
     h1{
         background-color: #3c3a3a;
         font-family: 'Beau Rivage', cursive;
         color: red;
     }
+        .logo{
+            width: 10rem;
+            padding-left: 2rem;
+        }
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3c3a3a;
+    background-color: #000000;
     form{
-        background-color: #3c3a3a;
-        img{
-            background-color: #3c3a3a;
-            padding-right: 1rem;
-            position: relative;
-            left: 0rem;
-            top: 20px;
-            &:hover{
-                cursor: pointer;
-            }
-        }
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        
     }
     input{
-        height: 50px;
-        width: 20vw;
+        margin-top: 1rem;
+        height: 30px;
+        width: 15vw;
         background-color: #ffffff;
         color: black;
-        font-size: x-large;
+        border-radius: 2rem;
+        font-size-adjust: 1px;
+        border: none;
     }
 
+}
+button{
+    border: none;
+    border-radius: 100px;
+    background-color: #000000;
 }

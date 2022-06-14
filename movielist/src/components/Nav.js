@@ -31,10 +31,11 @@ const Nav = ({setInput,input}) => {
     )
     return (
         <div className='nav'>
-            <h1>.Flix</h1>
+            <img className='logo' src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="" />
+            
             <form onSubmit={formAction} action="">
-                <input type="text" name='a'  placeholder='Search'/>
-                <img src={img} alt="" />
+                <input type="text" name='a'  placeholder='Stranger Things'/>
+                <button><img src={img} alt="" /></button>
                 <element/>
                
             </form>
