@@ -1,7 +1,7 @@
 {
   "name": "movielist",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://venawm.github.io/Movie-App",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
