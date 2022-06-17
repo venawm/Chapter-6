@@ -19,7 +19,7 @@ const container =  document.getElementById("root");
  RootContainer.render(
   <React.StrictMode>
   <Provider store={store}>
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
     <Route path="/" element={<App />}/>s
     </Routes>
